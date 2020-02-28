@@ -43,13 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BinaryTree.cs" />
     <Compile Include="BinaryTree\BinaryTree.cs" />
     <Compile Include="BinaryTree\Node.cs" />
     <Compile Include="Dictionary\DictionaryExamples.cs" />
+    <Compile Include="Employee.cs" />
     <Compile Include="HashSet\CountriesTracker.cs" />
     <Compile Include="LinkedList\Node.cs" />
     <Compile Include="LinkedList\SingleLinkedList.cs" />
     <Compile Include="List\Customer.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="ObservableCollection\MovieTracker.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

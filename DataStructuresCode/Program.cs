@@ -6,7 +6,6 @@ using DataStructuresCode.ObservableCollection;
 using DataStructuresCode.Queue;
 using DataStructuresCode.SortedList;
 using DataStructuresCode.Stack;
-using DataStructuresCode.BinaryTree;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,12 +22,15 @@ namespace DataStructuresCode
             //List<Customer> customers = new List<Customer>();
             //Customer mike = new Customer() { Name = "Mike", Age = 29 };
             //customers.Add(mike);
+            //List<Employee> employees = new List<Employee>();
+            //Employee newbie = new Employee() { Name = "Pat", Age = 28 };
 
             //Linked List Example
             //Console.WriteLine("Linked List");
             //SingleLinkedList singleLinkedList = new SingleLinkedList();
             //singleLinkedList.CreateList();
             //singleLinkedList.Menu();
+            
 
 
             //Sorted List Example
@@ -48,6 +50,8 @@ namespace DataStructuresCode
             //dictionaryExamples.DisplayMonthSeason();
             //dictionaryExamples.DisplayEmployeeIdName();
 
+
+
             //HashSet
             //Console.WriteLine("Hash Set");
             //CountriesTracker countriesTracker = new CountriesTracker();
@@ -65,11 +69,13 @@ namespace DataStructuresCode
 
             ////Binary Tree
             ////ASCII characters table: https://www.dotnetperls.com/ascii-table
-            Console.WriteLine("Binary Tree");
-            DataStructuresCode.BinaryTree.BinaryTree binaryTree = new DataStructuresCode.BinaryTree.BinaryTree();
-            binaryTree.CreateTree();
-            binaryTree.Display();
-            Console.WriteLine();
+            //Console.WriteLine("Binary Tree");
+            //DataStructuresCode.BinaryTree.BinaryTree binaryTree = new DataStructuresCode.BinaryTree.BinaryTree();
+            //binaryTree.CreateTree();
+            //binaryTree.Display();
+            //Console.WriteLine();
+
+
 
             //Pre-order starts at root and works its way down left side of tree
             Console.WriteLine("Pre-order: ");
