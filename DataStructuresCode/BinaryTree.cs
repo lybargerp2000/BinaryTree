@@ -15,7 +15,7 @@ namespace DataStructuresCode
         {
             
         }
-        public void InsertDataRoot(int data)
+        public void InsertDataTree(int data)
         {
             Node node = new Node(data);
             if (topTree == null)
@@ -23,24 +23,18 @@ namespace DataStructuresCode
                 topTree = node;
                 return;
             }
-
-        }
-        public void InsertDataLeft(int data) 
-        {
-            Node temp = topTree;
-            while (temp.link != null)
+            Node temporary = topTree;
+            while (temporary.linkLeft != null)
             {
-                temp = temp.link;
+                temporary = temporary.linkLeft;
+                
             }
-            temp.link = LeftTree;
-         
-
-
-
-
-
+            temporary.linkLeft = node;
         }
 
-
+        
     }
+
+
+    
 }

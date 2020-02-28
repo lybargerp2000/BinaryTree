@@ -9,7 +9,9 @@ namespace DataStructuresCode
     public class Node
     {
         int data;
-        public Node link;
+        public Node linkRoot;
+        public Node linkLeft;
+        public Node linkRight;
      public Node(int data)
         {
             this.data = data;
