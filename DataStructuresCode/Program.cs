@@ -30,7 +30,7 @@ namespace DataStructuresCode
             //SingleLinkedList singleLinkedList = new SingleLinkedList();
             //singleLinkedList.CreateList();
             //singleLinkedList.Menu();
-            
+
 
 
             //Sorted List Example
@@ -63,17 +63,17 @@ namespace DataStructuresCode
             //stack.PushOnToStack();
 
             //Queue
-            Console.WriteLine("Queue");
-            QueueExample queue = new QueueExample();
-            queue.EnqueueOnQueue();
+            //Console.WriteLine("Queue");
+            //QueueExample queue = new QueueExample();
+            //queue.EnqueueOnQueue();
 
             ////Binary Tree
             ////ASCII characters table: https://www.dotnetperls.com/ascii-table
-            //Console.WriteLine("Binary Tree");
-            //DataStructuresCode.BinaryTree.BinaryTree binaryTree = new DataStructuresCode.BinaryTree.BinaryTree();
-            //binaryTree.CreateTree();
-            //binaryTree.Display();
-            //Console.WriteLine();
+            Console.WriteLine("Binary Tree");
+            BinaryTree binaryTree = new BinaryTree();
+            binaryTree.CreateTree(binaryTree.data);
+            binaryTree.Display();
+            Console.WriteLine();
 
 
 

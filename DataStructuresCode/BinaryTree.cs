@@ -11,25 +11,40 @@ namespace DataStructuresCode
         Node topTree;
         Node LeftTree;
         Node RightTree;
+        int nodeTopValue;
+        public int data;
         public BinaryTree()
         {
             
         }
-        public void InsertDataTree(int data)
+        public void CreateTree(int data)
         {
+            
             Node node = new Node(data);
+            
             if (topTree == null)
             {
                 topTree = node;
+                nodeTopValue = data;
+
                 return;
             }
             Node temporary = topTree;
-            while (temporary.linkLeft != null)
+            if (temporary.linkLeft != null && nodeTopValue > data)
             {
                 temporary = temporary.linkLeft;
                 
             }
             temporary.linkLeft = node;
+            if (temporary.linkRight != null && nodeTopValue < data)
+            {
+                temporary = temporary.linkRight;
+            }
+            temporary.linkRight = node;
+        }
+        public void DisplayTree()
+        {
+         
         }
 
         
