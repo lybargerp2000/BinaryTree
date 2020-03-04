@@ -12,6 +12,7 @@ namespace DataStructuresCode
         public Node linkRoot;
         public Node linkLeft;
         public Node linkRight;
+        public Node link;
      public Node(int data)
         {
             this.data = data;
