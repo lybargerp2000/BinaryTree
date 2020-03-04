@@ -44,7 +44,8 @@ namespace DataStructuresCode
         }
         public void DisplayTree()
         {
-         
+            Console.WriteLine(topTree);
+            Console.ReadLine();
         }
 
         
